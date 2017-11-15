@@ -1,0 +1,21 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ToolBarStyle" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="?attr/colorPrimary"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    android:id="@+id/qr">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@android:drawable/ic_menu_camera"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        android:id="@+id/qrbutton" />
+
+</android.support.v7.widget.Toolbar>
+

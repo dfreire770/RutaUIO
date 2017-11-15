@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+      <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+          <ImageView
+            android:id="@+id/im1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_alignWithParentIfMissing="false"
+            android:src="@drawable/busstop"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentStart="true" />
+
+          <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta"
+            android:textColor="#000000"
+            android:textSize="15dp"
+              android:textAlignment="gravity"
+              android:textStyle="normal"
+              android:layout_centerVertical="true"
+              android:layout_toEndOf="@+id/im1" />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

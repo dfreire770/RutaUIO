@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RutaUIO</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings"></string>
+    <string name="title_activity_maps">Map</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="placa">Placa</string>
+    <string name="Compania">Compania</string>
+    <string name="Problema">Problema</string>
+    <string name="Enviar">ENVIAR</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="title_activity_splash_screen">RutaUIO</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="servicio_ruta">http://192.168.74.128:1212/api/rutas</string>
+    <string name="servicio_paradas_sector">http://192.168.74.128:1212/api/paradasector</string>
+    <string name="servicio_paradas_calle">http://192.168.74.128:1212/api/paradacalle</string>
+    <string name="servicio_paradas_ruta">http://192.168.74.128:1212/api/paradaruta</string>
+    <string name="servicio_denuncias">http://192.168.74.128:1213/api/values</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
