@@ -14,8 +14,8 @@ This App was made with Java in Android Studio, using the following APIs and Libr
 
 Features
 
-* Map
-* List of Main Bus Route in the City.
+* A Map to locate the user with GPS and place bus stops of the selected Bus Route
+* List of Main Bus Routes in the City.
 * Bus Route Details, schedule, fares, and stops.
 * QR Scanner to access Bus Route Details. 
 
