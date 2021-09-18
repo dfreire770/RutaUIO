@@ -22,7 +22,7 @@ Features
 # How it Works
 
 ## V1
-The application connecets to a Server, through a simple API made with PHP.
+The application connects to a Server, through a simple API made with PHP.
 The API, is used to access a MYSQL database with all the required data for the App, like bus routes, details, and more.
 
 ## V2
